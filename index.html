@@ -1,0 +1,111 @@
+<!doctype html>
+
+<html>
+<head>
+  <title>0401 - 연습</title>
+  <meta charset="utf-8">
+
+  <style>
+    a{
+      color:red;
+    }
+    body{
+      margin:0;
+    }
+
+    .HeadLine{
+      font-size: 60px;
+      text-align: center;
+      border-top: 5px solid black;
+      border-bottom: 5px solid black;
+      padding: 20px;
+      margin-bottom: 0px;
+    }
+
+    .OtherLink {
+      font-size: 30px;
+      border-right : 5px solid black;
+      margin-top: 0px;
+      padding-left: 30px;
+    }
+
+    .Main{
+      padding-left: 30px;
+    }
+
+    .Story{
+      padding-bottom: 100px;
+    }
+
+    #grid{
+      display: grid;
+      grid-template-columns: 1fr 7fr;
+
+      border-bottom : 5px solid black;
+    }
+
+  </style>
+
+</head>
+
+<body>
+<h1 class="HeadLine">
+  사파스의 웹페이지 연습
+</h1>
+
+<div id="grid">
+
+  <div class ="OtherLink">
+<ol>
+    <li><a href="Story.html">줄거리</a></li>
+    <li><a href="Script.html">명언집</a></li>
+</ol>
+  </div>
+
+  <div class="Main">
+    <p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/7T7r_oSp0SE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>
+
+    <img src ="book.jpg" width="50%" height="50%">
+
+    <a href=
+    "https://ko.wikipedia.org/wiki/%EB%82%98%EB%AF%B8%EC%95%BC_%EC%9E%A1%ED%99%94%EC%A0%90%EC%9D%98_%EA%B8%B0%EC%A0%81"
+    target="_blank" title="wikipedia" id="Page"><h1>p. 269</h1></a>
+
+    <p style ="margin-top:30px;">
+
+    <strong><u>하긴 이별이란 그런 것인지도 모른다.</u></strong>
+    <strong><span class="Story">
+      <br>사람과 사람 사이의 인연이 끊기는 것은 뭔가 구체적인 이유가 있어서가 아니다.
+      <br>아니, 표면적인 이유가 있었다고 해도 그것은 서로의 마음이 이미 단절된 뒤에 생겨난 것,
+      <br>나중에 억지로 갖다 붙인 변명 같은 게 아닐까.
+      <br>마음이 이어져 있다면 인연이 끊길 만한 상황이 되었을 때
+      <br>누군가는 어떻게든 회복하려 들 것이기 때문이다.
+      <br>그렇게 하지 않는 것은 이미 인연이 끊겼기 때문이다.
+    </span>
+    </strong>
+
+    </p>
+  </div>
+
+</div>
+
+
+
+<p>
+  <div id="disqus_thread"></div>
+  <script>
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://saenghwalkoding-html-silseub.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</p>
+
+</body>
+
+</html>
