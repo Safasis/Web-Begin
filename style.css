@@ -1,0 +1,46 @@
+a{
+  color:red;
+}
+body{
+  margin:0;
+}
+
+.HeadLine{
+  font-size: 60px;
+  text-align: center;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+
+.OtherLink {
+  font-size: 30px;
+  border-right : 5px solid black;
+  margin-top: 0px;
+  padding-left: 30px;
+}
+
+.Main{
+  padding-left: 30px;
+}
+
+#grid{
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+  border-bottom : 5px solid black;
+}
+
+@media(max-width:1550px) {
+  .OtherLink {
+    font-size: 30px;
+    border-right : none;
+    border-bottom: 5px solid black;
+    margin-top: 0px;
+    padding-left: 30px;
+  }
+
+  #grid{
+    display: block;
+  }
+}
